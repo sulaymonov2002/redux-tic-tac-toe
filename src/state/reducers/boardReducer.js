@@ -21,7 +21,7 @@ function boardReducer(state = initialState, action) {
       const colO = action.payload[1];
 
       const newStateO = [...state];
-      newStateO[rowO][colO] = "X";
+      newStateO[rowO][colO] = "O";
       return newStateO;
 
     default:

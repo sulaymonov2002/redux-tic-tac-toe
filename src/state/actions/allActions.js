@@ -35,3 +35,10 @@ export function winnerO() {
     type: "winner/o",
   };
 }
+
+
+export function winnerDraw() {
+  return {
+    type: "winner/draw",
+  };
+}
