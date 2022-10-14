@@ -6,8 +6,12 @@ function turnReducer(state = "X", action) {
     case "turn/o":
       return "O";
 
+    case "turn/erase":
+      return "X";
+
     default:
       return state;
   }
 }
+
 export default turnReducer;

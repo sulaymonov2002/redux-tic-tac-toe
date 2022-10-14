@@ -9,8 +9,11 @@ function winnerReducer(state = "", action) {
     case "winner/draw":
       return "Draw";
 
+    case "winner/erase":
+      return "";
+
     default:
-      return state; 
+      return state;
   }
 }
 
